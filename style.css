@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: gray;
+    border: 2px solid black;
+    font-family: "Comic Sans MS", cursive;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray !important;
+      
+  }
+  .navbar-default {
+    background-color: gray;
+  }    
+  .navbar-brand {
+    color: black;
+    background-color: gray;
+    float: left;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    float: left; 
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  
+  .collapse.navbar-collapse {
+    background-color: gray;
+    width: 100%;
+  }
+  
+  .nav.navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar-nav > li {
+    display: inline-block;
+  }
+  
+  .tall-section.container {
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .page-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS", cursive;
+    padding-left: 70px;
+  }
+  
+  .tall-section {
+    background-color: gray;
+    height: auto;
+    width: auto;
+    font-family: "Comic Sans MS", cursive;
+
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  /* Additional CSS for the hamburger menu */
+  .navbar-toggle {
+    margin-right: 15px;
+  }
+  
+  .navbar-toggle .icon-bar {
+    width: 22px;
+    height: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+    }
+    .navbar-nav > li {
+      margin: 0 15px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+    /* Adjust the width as needed */
+    padding: 20px;
+    /* Adjust the padding as needed */
+    margin: 0 auto;
+    /* Center the container horizontally */
+  }
+  
